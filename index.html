@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Image Gallery</title>  
+<link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+<div class="gallery">  
+    <div class="large-image">  
+        <img id="largeImg" src="image1.jpg" alt="Large Image">  
+    </div>  
+    <div class="thumbnails">  
+        <img class="thumb" src="image1.jpg" alt="Thumbnail 1" onclick="changeImage(1)">  
+        <img class="thumb" src="image2.jpg" alt="Thumbnail 2" onclick="changeImage(2)">  
+        <img class="thumb" src="image3.jpg" alt="Thumbnail 3" onclick="changeImage(3)">  
+        <img class="thumb" src="image4.jpg" alt="Thumbnail 4" onclick="changeImage(4)">  
+        <img class="thumb" src="image5.jpg" alt="Thumbnail 5" onclick="changeImage(5)">  
+    </div>  
+    <button onclick="toggleBrightness()">Toggle Brightness</button>  
+</div>  
+<script src="script.js"></script>  
+</body>  
+</html>
